@@ -18,7 +18,7 @@ const devConfig = {
   },
   devServer: {
     hot: true,
-    port: 8082
+    port: 8080
   },
   plugins: [
     new webpack.HotModuleReplacementPlugin(),

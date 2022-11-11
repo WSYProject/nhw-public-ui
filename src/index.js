@@ -2,10 +2,12 @@ import './styles/index.less'
 import JSplit from './components/split'
 import Collapse from './components/collapse'
 import CollapseItem from './components/collapseItem'
+import FileUpload from './components/fileupload'
 const components = {
   JSplit,
   Collapse,
-  CollapseItem
+  CollapseItem,
+  FileUpload
 }
 const install = function (Vue) {
   // 判断是否安装
