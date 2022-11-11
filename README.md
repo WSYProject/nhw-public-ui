@@ -7,9 +7,9 @@ npm install nhw-public-component-ui --save
 
 ## Second -  main.js 
 ```
-import NHWUI from 'nhw-public-component-ui'
+import NhmUI from 'nhw-public-component-ui/dist/publicComponent'
 import 'nhw-public-component-ui/dist/nhw-public-component-ui.css'
-Vue.use(NHWUI)
+Vue.use(NhmUI)
 ```
 ## 组件使用，例如：
 ```

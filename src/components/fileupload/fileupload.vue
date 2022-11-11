@@ -291,7 +291,7 @@ export default {
             url: viewUrl,
             resourceFileId: id
           }
-          Message.error({ message: '已添加' })
+          Message.success({ message: '已添加' })
           this.$emit('setFileList', this.segmentedFile)
         })
         .catch((msg) => {
