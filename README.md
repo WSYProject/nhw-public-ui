@@ -26,7 +26,7 @@ Vue.use(NhmUI)
 
  |参数名      |说明      |参数类型       |默认值     |
  |:-:      |:-:      |:-:      |:-:              |
- |setFileList         |文件上传成功后接受数据的方法       |Function         |-     |
+ |setFileList         |文件上传成功后接受数据的方法       |Function         |function(files) => {}     |
  |fileList            |已上传文件列表                   |Array            |[]    |
  |accept              |接受上传的文件格式                |Array[String]    |['doc', 'xls', 'ppt', 'txt', 'pdf']    |
  |limit               |限制上传文件个数                 |Number            |5     |
