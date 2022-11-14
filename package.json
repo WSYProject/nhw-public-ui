@@ -1,6 +1,6 @@
 {
   "name": "nhw-public-component-ui",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "title": "cindy-vue-publicUI",
   "private": false,
   "main": "dist/publicComponent.js",
