@@ -1,4 +1,6 @@
-# JviewUI
+# nhw-public-component-ui
+
+vue2.x + webpack + element-ui
 
 ## First
 ```
